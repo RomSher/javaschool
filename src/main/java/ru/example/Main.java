@@ -18,13 +18,12 @@ public class Main {
     public static int intAndLong(int a, long b) {
         return (int) (a * b); //если b не входит в допустимый диапазон int возникнет переполнение при умножении и неправильный результат
     }
-
     /*
     Написать метод getMaxNumber принимающий 2 параметра: int и int. Метод должен сравнить переданные параметры между собой и вернуть максимальный.
     Для решения необходимо использовать IF или тернарный оператор ?:
      */
     public static int getMaxNumber(int a, int b) {
-        return (a > b ? a : b);
+        return a > b ? a : b;
     }
 
     /*
