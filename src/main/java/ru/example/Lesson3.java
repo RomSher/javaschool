@@ -1,6 +1,6 @@
 package ru.example;
 
-public class Main {
+public class Lesson3 {
     public static void main(String[] args) {
     }
     /*
