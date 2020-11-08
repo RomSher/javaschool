@@ -1,6 +1,11 @@
 package ru.example;
 
+import java.util.stream.IntStream;
+
 public class Lesson3 {
+    public static void main(String[] args) {
+        numbersToBinary();
+    }
     /*
     Написать публичный метод принимающий 2 параметра: первый типа byte и второй типа short.
     Метод должен возвращать сумму значений параметров. Тип возвращаемого значения должен быть byte.
@@ -47,9 +52,7 @@ public class Lesson3 {
     Для вывода бинарного представления использовать Integer.toBinaryString(). Без входных параметров и не возвращающая ничего.
      */
     public static void numbersToBinary() {
-        for (int a = 0; a < 31; a++) {
-            System.out.println(Integer.toBinaryString(a));
-        }
+        IntStream.range(0, 30).mapToObj(Integer::toBinaryString).forEach(System.out::println);
     }
 
     /*
