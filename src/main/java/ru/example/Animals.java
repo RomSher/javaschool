@@ -62,7 +62,7 @@ public class Animals {
         return "unknown";
     }
 
-    public boolean CanMove(){
+    public boolean canMove(){
         return false;
     }
 
@@ -70,7 +70,7 @@ public class Animals {
         System.out.println("Type of Animal: "+ getType());
         System.out.println("The name: "+ getName());
         System.out.println("Have color: "+ getColor());
-        System.out.println("Can move : "+ CanMove());
+        System.out.println("Can move : "+ canMove());
         System.out.println("Years old: "+ getAge());
         System.out.println("Like eating: "+ ration());
         System.out.println("Have skill: "+ skill());

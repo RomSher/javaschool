@@ -31,7 +31,7 @@ public class Dogs extends Animals {
         return "Swim";
     }
     @Override
-    public boolean CanMove() {
+    public boolean canMove() {
         return true;
     }
 }

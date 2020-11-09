@@ -31,7 +31,7 @@ public class Cats extends Animals{
         return "Climb trees";
     }
     @Override
-    public boolean CanMove() {
+    public boolean canMove() {
         return true;
     }
  }
