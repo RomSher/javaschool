@@ -1,10 +1,10 @@
 package ru.example;
 
 public class Animals {
-    private String type;
-    private String name;
-    private String color;
-    private int age;
+    private String type; //тип животного
+    private String name; //имя животного
+    private String color; //окрас животного
+    private int age; //возраст животного
 
     //конструктор
 
