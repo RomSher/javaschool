@@ -1,20 +1,16 @@
 package ru.example;
 
 public class Animals {
-    private String type; //тип животного
-    private String name; //имя животного
-    private String color; //окрас животного
-    private int age; //возраст животного
-
-    //конструктор
+    private String type;
+    private String name;
+    private String color;
+    private int age;
 
     public Animals(String name, String color, int age) {
         this.name = name;
         this.color = color;
         this.age = age;
     }
-
-    //геттеры и сеттеры
 
     public String getType() {
         return type;
@@ -48,7 +44,6 @@ public class Animals {
         this.age = age;
     }
 
-    //методы
 
     public String voice(){
         return "unknown";
